@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e418da91f2a1c439e2eb27cc1d72f4, type: 3}
+  m_Name: Boost 30% Range TakeBulletOG Skill
+  m_EditorClassIdentifier: 
+  skillImage: {fileID: 21300000, guid: ed32b3e5e47c58748a623d4e8fdbd0f5, type: 3}
+  skillDescription: Increases 30% the radius of the area receiving bullets on ground
+    compared to default Range Take Bullet on ground. If player dont have range take
+    bullet on ground, increases 50% the radius of the area receiving orbs dropped
+    from enemies compared to default Range Take Orb
+  BoostRangeTakeBulletOGRate: 0.3
+  BoostRangeTakeOrbs: 0.5

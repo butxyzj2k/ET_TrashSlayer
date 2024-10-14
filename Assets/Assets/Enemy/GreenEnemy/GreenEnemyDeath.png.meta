@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 2777a429faf880a4a953a3e5c5f109e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenEnemyDeath_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 12
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eca535e20bebfd4fa9cd559f7546e5c
+      internalID: 617278338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEnemyDeath_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 8
+        width: 114
+        height: 150
+      alignment: 9
+      pivot: {x: 0.5272488, y: 0.39636713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2b03b814e630346a75e9a53d1a2ec1
+      internalID: -1024130814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEnemyDeath_39
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 12
+        width: 123
+        height: 147
+      alignment: 9
+      pivot: {x: 0.454043, y: 0.37694824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5da079f34b8724884f1115405d89ff
+      internalID: -661193478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenEnemyDeath_0
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 11
+        width: 123
+        height: 147
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3980974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4686463464b67bc498b2f14e3495af2c
+      internalID: 842695044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GreenEnemyDeath_0: 842695044
+      GreenEnemyDeath_1: 704204127
+      GreenEnemyDeath_10: -1325619251
+      GreenEnemyDeath_11: -1056660164
+      GreenEnemyDeath_12: 617278338
+      GreenEnemyDeath_13: 159305294
+      GreenEnemyDeath_14: -180841743
+      GreenEnemyDeath_15: 2039561086
+      GreenEnemyDeath_16: 653358544
+      GreenEnemyDeath_17: 608416023
+      GreenEnemyDeath_18: 247806028
+      GreenEnemyDeath_19: 387515449
+      GreenEnemyDeath_2: 550785448
+      GreenEnemyDeath_20: 1775432995
+      GreenEnemyDeath_21: 659410637
+      GreenEnemyDeath_22: -224493571
+      GreenEnemyDeath_23: -1065901248
+      GreenEnemyDeath_24: 2009656757
+      GreenEnemyDeath_25: 1685549367
+      GreenEnemyDeath_26: -1024130814
+      GreenEnemyDeath_27: -667128196
+      GreenEnemyDeath_28: 219583894
+      GreenEnemyDeath_29: 85892576
+      GreenEnemyDeath_3: 1602651508
+      GreenEnemyDeath_30: 794050197
+      GreenEnemyDeath_31: 1773185554
+      GreenEnemyDeath_32: -501005043
+      GreenEnemyDeath_33: -1080200819
+      GreenEnemyDeath_34: 1813343664
+      GreenEnemyDeath_35: -1893955954
+      GreenEnemyDeath_36: 875355890
+      GreenEnemyDeath_37: -1866034527
+      GreenEnemyDeath_38: 888255326
+      GreenEnemyDeath_39: -661193478
+      GreenEnemyDeath_4: -278660708
+      GreenEnemyDeath_40: -175866517
+      GreenEnemyDeath_5: 1650990972
+      GreenEnemyDeath_6: 1526717380
+      GreenEnemyDeath_7: 1637411715
+      GreenEnemyDeath_8: 1173538853
+      GreenEnemyDeath_9: -742510686
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa09407283af3f84dae78165e09c1807, type: 3}
+  m_Name: Damage Accumulation Hitting Effect SO
+  m_EditorClassIdentifier: 
+  timeEffect: 5
+  defaultTimeEffect: 5
+  stateVFXPrefab: {fileID: 1612595969248618240, guid: 6f1d114608775f041b8b8c154a5685d2, type: 3}

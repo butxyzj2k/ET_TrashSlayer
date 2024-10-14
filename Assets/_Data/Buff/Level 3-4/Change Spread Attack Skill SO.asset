@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1389fd837f90df42b2366478923b360, type: 3}
+  m_Name: Change Spread Attack Skill SO
+  m_EditorClassIdentifier: 
+  skillImage: {fileID: 21300000, guid: df61ba2c58bdb1941b6198bcc5396608, type: 3}
+  skillDescription: Spread 1 bullet to 3 bullet
+  spread3AttackSO: {fileID: 11400000, guid: 453897ad774871540ba73ac9c8931416, type: 2}

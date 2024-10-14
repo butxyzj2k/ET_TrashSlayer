@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8dda0d9e356954181de2eedd2d1e61, type: 3}
+  m_Name: Spin15Bullet3Dir2Wave Attack Pattern SO
+  m_EditorClassIdentifier: 
+  attackDelay: 1
+  flexibleAttack:
+    isFlexible: 0
+    offsetAngle: 0
+    flexibleProjectilePrefab: {fileID: 0}
+    flexibleProjectilePoolObject: {fileID: 0}
+    attackPatternSOFlexible: {fileID: 0}
+  numBullet: 15
+  distOrAngleBetweenBullet: 18
+  attackRate: 0.05
+  numWaveAttack: 2
+  timeBetweenWaveAttack: 0.5
+  newDirRotatable: 1
+  numDir: 3
+  angleBetweenDir: 120
+  distBetweenNewBarrelAndOrinBarel: 0.3

@@ -1,0 +1,523 @@
+fileFormatVersion: 2
+guid: 091fc1a5f6c453a40a1f50bb1cf3e4bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: YellowBinDeath_6
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69abb3ef7244f73468cd0d4310ec97c9
+      internalID: -518160506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_5
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5352c272ee39444bf166628ece9b1f
+      internalID: -107073982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_8
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c66d6c162704284c96cfb5e9ed27c10
+      internalID: 665769662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fad39caf4e13d479e78ae31d46e964
+      internalID: -2052417631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_11
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893434a8a6fe1b442aefa9011129b769
+      internalID: 478101113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_4
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97710d8c47e396e449fb008dd3936e2e
+      internalID: -541507000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_13
+      rect:
+        serializedVersion: 2
+        x: 2510
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e662141f25d22534e944af18335973c2
+      internalID: -1163104943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c01ccbce2c6ea4191e6f5c0b2ddb23
+      internalID: -1572305155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5232da70b83e518489b9bcc5c0cc2c8d
+      internalID: -1405955266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0e9bdc3240d244c8d52db9d0274a88
+      internalID: -1162559488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_3
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625fb025a64b4884888c201db41d171e
+      internalID: -1045210809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_7
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3091be8e2916f384f838459aed87df77
+      internalID: -1490529416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae49b5056b4bda44aa8c76fdb2f3e02
+      internalID: -1708196004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBinDeath_12
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 0
+        width: 148
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5163844, y: 0.284542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc6a18997f1e794994da4d4fda7d47f
+      internalID: 1603729955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      YellowBinDeath_0: -1572305155
+      YellowBinDeath_1: -1405955266
+      YellowBinDeath_10: -1708196004
+      YellowBinDeath_100: 224701513
+      YellowBinDeath_101: -1185504567
+      YellowBinDeath_102: -389429395
+      YellowBinDeath_103: -2002691447
+      YellowBinDeath_104: 1145479552
+      YellowBinDeath_105: -1929693496
+      YellowBinDeath_106: -629847002
+      YellowBinDeath_11: 478101113
+      YellowBinDeath_12: 1603729955
+      YellowBinDeath_13: -1163104943
+      YellowBinDeath_14: 1843393252
+      YellowBinDeath_17: -1061527905
+      YellowBinDeath_18: -1554992060
+      YellowBinDeath_19: 510100341
+      YellowBinDeath_2: -1162559488
+      YellowBinDeath_20: -1774237115
+      YellowBinDeath_21: -1546690998
+      YellowBinDeath_22: 247729308
+      YellowBinDeath_23: 655857010
+      YellowBinDeath_25: 365390437
+      YellowBinDeath_26: 674684142
+      YellowBinDeath_27: -989923315
+      YellowBinDeath_28: -1290193487
+      YellowBinDeath_29: 880528983
+      YellowBinDeath_3: -1045210809
+      YellowBinDeath_30: 734091185
+      YellowBinDeath_31: 1018783517
+      YellowBinDeath_32: 1122146591
+      YellowBinDeath_33: 2088593983
+      YellowBinDeath_35: 1373008942
+      YellowBinDeath_36: 1637902806
+      YellowBinDeath_37: -310550249
+      YellowBinDeath_38: 1766178975
+      YellowBinDeath_4: -541507000
+      YellowBinDeath_40: 559317809
+      YellowBinDeath_41: -466849025
+      YellowBinDeath_42: -300265353
+      YellowBinDeath_43: 812949829
+      YellowBinDeath_44: 909657346
+      YellowBinDeath_45: -1621619805
+      YellowBinDeath_46: -2026985815
+      YellowBinDeath_47: -83096802
+      YellowBinDeath_48: -1603172569
+      YellowBinDeath_49: -1743683560
+      YellowBinDeath_5: -107073982
+      YellowBinDeath_50: -561174436
+      YellowBinDeath_51: 80689392
+      YellowBinDeath_52: -62945838
+      YellowBinDeath_53: 1981026662
+      YellowBinDeath_54: 2087555511
+      YellowBinDeath_55: -1176201014
+      YellowBinDeath_6: -518160506
+      YellowBinDeath_62: 888487294
+      YellowBinDeath_63: 1546271697
+      YellowBinDeath_64: -1230727339
+      YellowBinDeath_65: -33532088
+      YellowBinDeath_66: -263278750
+      YellowBinDeath_67: 61953591
+      YellowBinDeath_68: -1042149676
+      YellowBinDeath_7: -1490529416
+      YellowBinDeath_70: 600234296
+      YellowBinDeath_71: -359648585
+      YellowBinDeath_72: 2002121067
+      YellowBinDeath_73: 49806027
+      YellowBinDeath_74: -1165719632
+      YellowBinDeath_75: 1632273127
+      YellowBinDeath_76: -1592026964
+      YellowBinDeath_77: 1301147120
+      YellowBinDeath_78: -1770901922
+      YellowBinDeath_79: -687036734
+      YellowBinDeath_8: 665769662
+      YellowBinDeath_81: -1916963754
+      YellowBinDeath_82: 129761906
+      YellowBinDeath_83: 1253851913
+      YellowBinDeath_84: 957080155
+      YellowBinDeath_85: -912960875
+      YellowBinDeath_86: 1334552070
+      YellowBinDeath_87: -1886437078
+      YellowBinDeath_88: 767838772
+      YellowBinDeath_89: 1532959589
+      YellowBinDeath_9: -2052417631
+      YellowBinDeath_90: 729153873
+      YellowBinDeath_91: -1984628000
+      YellowBinDeath_92: 768271325
+      YellowBinDeath_93: 1270995674
+      YellowBinDeath_94: -627373767
+      YellowBinDeath_95: -2090522635
+      YellowBinDeath_96: -1034733016
+      YellowBinDeath_97: -2092010927
+      YellowBinDeath_98: -1450571289
+      YellowBinDeath_99: -1874000936
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

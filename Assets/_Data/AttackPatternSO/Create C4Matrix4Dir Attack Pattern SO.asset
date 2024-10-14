@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53eea33a752aa1244825508dea2ed4ad, type: 3}
+  m_Name: Create C4Matrix4Dir Attack Pattern SO
+  m_EditorClassIdentifier: 
+  attackDelay: 0
+  flexibleAttack:
+    isFlexible: 0
+    offsetAngle: 0
+    flexibleProjectilePrefab: {fileID: 0}
+    flexibleProjectilePoolObject: {fileID: 0}
+    attackPatternSOFlexible: {fileID: 0}
+  numBullet: 4
+  distOrAngleBetweenBullet: 6
+  attackRate: 0.1
+  numWaveAttack: 1
+  timeBetweenWaveAttack: 0
+  newDirRotatable: 0
+  numDir: 4
+  angleBetweenDir: 90
+  distBetweenNewBarrelAndOrinBarel: 6
+  rotatableBullet: 0

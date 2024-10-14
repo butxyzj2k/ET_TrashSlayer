@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4325617291304699318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -3152100363635325358, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: RangeTakeObjectName
+      value: RangeTakeOrbCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: -3152100363635325358, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: hittingObjectEffectSOs.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 10b913cee76477347a42e020c91b0d4c, type: 2}
+    - target: {fileID: 3551755420479468280, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c96307c979a507546a910166fedba580, type: 3}
+    - target: {fileID: 3551755421195557985, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: canRotate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195557985, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: currentSpeed
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558044, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551755421195558046, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}
+      propertyPath: m_Name
+      value: RedOrb Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: e1b5b10bf52465c48a7d1c9112c97f37, type: 3}

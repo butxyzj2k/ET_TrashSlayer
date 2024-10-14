@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd7fcd0256c3994d94359e6f8155547, type: 3}
+  m_Name: Change Tripple Barrel Attack Skill SO
+  m_EditorClassIdentifier: 
+  skillImage: {fileID: 21300000, guid: e6b4fb01eb30a16479ff4a7cae552346, type: 3}
+  skillDescription: X3 Bullet in shot
+  newAttackPatternSO: {fileID: 11400000, guid: 55c05c6461f06de4b80e83251b882997, type: 2}

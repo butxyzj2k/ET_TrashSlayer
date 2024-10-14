@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: b37d326a1198b2c4a8c035f9b01208ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Parking10_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 26}
+        - {x: -2, y: 24}
+        - {x: -4, y: 24}
+        - {x: -4, y: 14}
+        - {x: -8, y: 14}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -10, y: 10}
+        - {x: -12, y: 10}
+        - {x: -12, y: -10}
+        - {x: -10, y: -10}
+        - {x: -10, y: -12}
+        - {x: -8, y: -12}
+        - {x: -8, y: -14}
+        - {x: -6, y: -14}
+        - {x: -6, y: -24}
+        - {x: -4, y: -24}
+        - {x: -4, y: -26}
+        - {x: 4, y: -26}
+        - {x: 4, y: -24}
+        - {x: 6, y: -24}
+        - {x: 6, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: -12}
+        - {x: 10, y: -12}
+        - {x: 10, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: 12}
+        - {x: 8, y: 12}
+        - {x: 8, y: 14}
+        - {x: 4, y: 14}
+        - {x: 4, y: 24}
+        - {x: 2, y: 24}
+        - {x: 2, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a033007751eb4ed4eba1959a6fb7d830
+      internalID: -403356441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339c9c183fe00cd4f92edc6d41b8967f
+      internalID: 694949147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 34
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3.9030266, y: 21}
+        - {x: -4.1333733, y: 21}
+        - {x: -8, y: 17}
+        - {x: -8, y: 9}
+        - {x: -6, y: 9}
+        - {x: -6, y: -15}
+        - {x: 6, y: -15}
+        - {x: 6, y: 9}
+        - {x: 8, y: 9}
+        - {x: 8, y: 17}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9598971bae0354095b1534188ec19c
+      internalID: 1066217318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c827b476eeb0d4996feb205f4e395b
+      internalID: 1433314127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -2, y: 26}
+        - {x: -2, y: 24}
+        - {x: -4, y: 24}
+        - {x: -4, y: 14}
+        - {x: -8, y: 14}
+        - {x: -8, y: 12}
+        - {x: -10, y: 12}
+        - {x: -10, y: 10}
+        - {x: -12, y: 10}
+        - {x: -12, y: -10}
+        - {x: -10, y: -10}
+        - {x: -10, y: -12}
+        - {x: -8, y: -12}
+        - {x: -8, y: -14}
+        - {x: -6, y: -14}
+        - {x: -6, y: -24}
+        - {x: -4, y: -24}
+        - {x: -4, y: -26}
+        - {x: 4, y: -26}
+        - {x: 4, y: -24}
+        - {x: 6, y: -24}
+        - {x: 6, y: -14}
+        - {x: 8, y: -14}
+        - {x: 8, y: -12}
+        - {x: 10, y: -12}
+        - {x: 10, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: 10}
+        - {x: 10, y: 10}
+        - {x: 10, y: 12}
+        - {x: 8, y: 12}
+        - {x: 8, y: 14}
+        - {x: 4, y: 14}
+        - {x: 4, y: 24}
+        - {x: 2, y: 24}
+        - {x: 2, y: 26}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723f8925e166c4248a15547675ffaee5
+      internalID: -1019591006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6806788ad3e434a9b98e07d01894b7
+      internalID: -1233907452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 34
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd3a044ebf9f59448de471833eac87f
+      internalID: 1659109958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba293d3dfeb551f40bcce20c1850e4b2
+      internalID: 202048305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e475ae008cc4fc443b2e5e39605d9c7f
+      internalID: -51560169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 128
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 16}
+        - {x: -20, y: 8}
+        - {x: -20, y: -4}
+        - {x: -18, y: -6}
+        - {x: -16, y: -8}
+        - {x: -14, y: -10}
+        - {x: -12, y: -12}
+        - {x: -4, y: -14}
+        - {x: -2, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -14}
+        - {x: 16, y: -12}
+        - {x: 20, y: -8}
+        - {x: 20, y: 4}
+        - {x: 16, y: 8}
+        - {x: 14, y: 10}
+        - {x: 10, y: 12}
+        - {x: 2, y: 16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ba750181dcbd54486a0036f84e372c
+      internalID: -892952677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Parking10_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 160
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdcbfd188c053e42a0c676d019c916b
+      internalID: -1376860021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Parking10_0: -403356441
+      Parking10_1: 694949147
+      Parking10_10: -1376860021
+      Parking10_2: 1066217318
+      Parking10_3: 1433314127
+      Parking10_4: -1019591006
+      Parking10_5: -1233907452
+      Parking10_6: 1659109958
+      Parking10_7: 202048305
+      Parking10_8: -51560169
+      Parking10_9: -892952677
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

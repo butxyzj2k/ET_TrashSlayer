@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06470d4e1fc56914b93a1529b88bb167, type: 3}
+  m_Name: Add Battery Bullet To Bullet Box Hitting Effect SO
+  m_EditorClassIdentifier: 
+  bulletSO: {fileID: 11400000, guid: cddcc13c4aef89842b7d22a6b20863f3, type: 2}

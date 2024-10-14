@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53eea33a752aa1244825508dea2ed4ad, type: 3}
+  m_Name: Create C4Bullet2Dir Burst Attack Pattern SO
+  m_EditorClassIdentifier: 
+  attackDelay: 0
+  flexibleAttack:
+    isFlexible: 1
+    offsetAngle: 90
+    flexibleProjectilePrefab: {fileID: 799279801572424290, guid: 1deda341ecf6e694b9dfd0803c8dd4e2, type: 3}
+    flexibleProjectilePoolObject: {fileID: 0}
+    attackPatternSOFlexible: {fileID: 11400000, guid: 9c19718c85e19cb458e618bb640a1055, type: 2}
+  numBullet: 4
+  distOrAngleBetweenBullet: 4
+  attackRate: 0
+  numWaveAttack: 1
+  timeBetweenWaveAttack: 0
+  newDirRotatable: 0
+  numDir: 2
+  angleBetweenDir: 180
+  distBetweenNewBarrelAndOrinBarel: 2
+  rotatableBullet: 1
