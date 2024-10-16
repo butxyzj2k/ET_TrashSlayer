@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerAttack : ObjectAttack
 {
     private bool canChangeBulletInBulletBox = true;
-    IBox bulletBox;
+    BulletBox bulletBox;
 
     private void Start() {
         SetCurrentObjectSkill("PlayerAttack");
-        bulletBox = GetComponentInChildren<IBox>();
+        bulletBox = GetComponentInChildren<BulletBox>();
         currentObjectSkill.skillWeaponPrefab = bulletBox.GetObjectInBox();
     }
 

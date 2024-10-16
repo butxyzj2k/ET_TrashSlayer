@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletBox : MonoBehaviour, IBox
+public class BulletBox : MonoBehaviour
 {
     [SerializeField] private SpriteRenderer bulletSprite;
     private int currentIndex = 0;
