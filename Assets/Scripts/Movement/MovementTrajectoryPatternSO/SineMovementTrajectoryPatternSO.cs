@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Movement/SineMovement")]
-public class SineMovementPatternSO : MovementPatternSO
+[CreateAssetMenu(menuName = "MovementTrajectory/SineMovementTranjectory")]
+public class SineMovementTrajectoryPatternSO : MovementTrajectoryPatternSO
 {
     [SerializeField] protected float amplitude;
     [SerializeField] protected float frequently;

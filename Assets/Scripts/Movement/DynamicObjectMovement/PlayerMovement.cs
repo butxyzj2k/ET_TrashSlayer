@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : DynamicObjectMovement
+public class PlayerMovement : ObjectMovement
 {
 
     void Awake()
@@ -27,8 +27,13 @@ public class PlayerMovement : DynamicObjectMovement
         }
     }
 
-    public override void ObjectMovementAnim(){
-        base.ObjectMovementAnim();
+    public override void ObjectMovementAnim()
+    {
+        ObjectMovementAnimationPerform();
+    }
+
+    public override void ObjectMovementAnimationPerform(){
+        base.ObjectMovementAnimationPerform();
 
         if(rb2d.velocity != Vector2.zero){
             anim.SetFloat("LastHorizontal", rb2d.velocity.x);

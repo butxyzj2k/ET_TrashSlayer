@@ -182,13 +182,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26c9db496f525424a9b987ff3d2e5cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 1
   currentSpeed: 300
   rb2d: {fileID: -2555135546949656237}
-  movementPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
-  canMove: 0
-  canRotate: 1
-  rotateSpeed: 1
   objectSprite: {fileID: 7325977108076568831}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
+  canMove: 0
+  movingSFXPrefab: {fileID: 0}
 --- !u!114 &-1502527914101049786
 MonoBehaviour:
   m_ObjectHideFlags: 0

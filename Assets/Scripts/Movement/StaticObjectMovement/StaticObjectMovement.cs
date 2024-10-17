@@ -4,19 +4,13 @@ using UnityEngine;
 
 public class StaticObjectMovement : ObjectMovement
 {
-
-    // private void FixedUpdate() {
-    //     PerformMovement();
-    // }
-    // private void Update() {
-    //     ObjectMovementAnim();
-    // }
-    public override void PerformMovement()
+    public override void ObjectMovementAnim()
     {
-        if(canMove) movementPatternSO.PerformMovement(rb2d, currentSpeed ,rb2d.transform.up, ref firstTimeMove);
+        Debug.Log("No override movement anim");
     }
 
-    public override void ObjectMovementAnim(){
-        
+    public override void PerformMovement()
+    {
+        if(canMove) movementTrajectoryPatternSO.PerformMovement(rb2d, currentSpeed ,rb2d.transform.up, ref firstTimeMove);
     }
 }

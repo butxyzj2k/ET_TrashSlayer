@@ -35,15 +35,8 @@ public class CreateLaserBeamAttackPatternSO : UnSymmetricalAttackPatternSO
                 };
             return data;
         });   
-        float time = 0;
         //Thực hiện vòng lặp Update
-        while(time < weaponPoolObject.GetObjectInPool(new Vector3(0, 0, 0), Quaternion.identity, () => {
-            Dictionary<string, object> data = new()
-                {
-                    { "activeBullet", false},
-                };
-            return data;
-        }).GetComponent<IWeaponHealth>().TimeExist){
+        while(true){
             //Nếu Object thực hiện Attack không còn hoạt động
             if(!startPoint.gameObject.activeInHierarchy) {
                 //Thực hiện việc tắt hoạt động của laser sau đó thoát khỏi courotine
@@ -51,8 +44,8 @@ public class CreateLaserBeamAttackPatternSO : UnSymmetricalAttackPatternSO
                 break;
                 //Sau khi thoát khỏi Courotine, startPoint có thể vẫn đang IsAttack, tuy nhiên vì nó đã ngưng hoạt động nên sẽ không có ảnh hưởng nhiều 
             }
+            if(!laserBeam.activeInHierarchy) break;
             //Cập nhật vị trí và hướng xoay của laser theo vị trí và hướng của barrel có index i trong danh sách newBarrels 
-            time += Time.deltaTime;
             laserBeam.transform.SetPositionAndRotation(newBarrels[indexBarrel].position, newBarrels[indexBarrel].rotation);
             yield return null;
         }

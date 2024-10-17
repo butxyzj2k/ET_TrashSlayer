@@ -277,9 +277,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e142a79dda28474a8c6afeb039b5682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 0.75
   currentSpeed: 80
   rb2d: {fileID: 6361131833509228015}
-  movementPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
+  objectSprite: {fileID: 6361131833447395902}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
   canMove: 1
   movingSFXPrefab: {fileID: 0}
   radiusToIdel: 1
@@ -314,6 +316,7 @@ MonoBehaviour:
   damageRate: 1
   barrel: {fileID: 6361131833643938623}
   sightAttackDist: 0
+  TargetAttackPosition: {x: 0, y: 0, z: 0}
   sightMeeleeAttackDist: 0.5
   sightBulletAttackDist: 5
   rangeToAttackMeelee: 1

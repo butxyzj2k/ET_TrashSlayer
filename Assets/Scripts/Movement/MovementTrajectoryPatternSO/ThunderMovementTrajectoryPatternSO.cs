@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Movement/ThunderMovement")]
-public class ThunderMovementSO : SineMovementPatternSO
+[CreateAssetMenu(menuName = "MovementTrajectory/ThunderMovementTrajectory")]
+public class ThunderMovementTrajectoryPatternSO : SineMovementTrajectoryPatternSO
 {
     public override void PerformMovement(Rigidbody2D _rb2d, float _speed, Vector3 _dir, ref bool firstTimeMove)
     {

@@ -536,9 +536,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92cac447fb66f004aaba1bb41eeab08b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 0.75
   currentSpeed: 80
   rb2d: {fileID: 100778234}
-  movementPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
+  objectSprite: {fileID: 372046233}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: c708f498f69e6964b91c7871fd57ea07, type: 2}
   canMove: 1
   movingSFXPrefab: {fileID: 0}
   radiusToIdel: 0
@@ -63545,9 +63547,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4056227fe9312c40b078431eb6e2309, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 0.75
   currentSpeed: 220
   rb2d: {fileID: 1556992786}
-  movementPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
+  objectSprite: {fileID: 1570634134}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
   canMove: 1
   movingSFXPrefab: {fileID: 4518967833856636896, guid: d8ceb68e8874112428dca0f5b330f04e, type: 3}
 --- !u!70 &1556992790

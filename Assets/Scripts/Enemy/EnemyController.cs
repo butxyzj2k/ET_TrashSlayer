@@ -34,7 +34,7 @@ public class EnemyController : MonoBehaviour, IObjectInPool
     }
 
     private void LateUpdate() {
-        GetComponent<IPersueObjectMovement>().PersueObjectChangeScale(gameObject);
+        enemyMovement.ObjectMovementChangeScale();
     }
 
     public virtual void EnemyManage(){

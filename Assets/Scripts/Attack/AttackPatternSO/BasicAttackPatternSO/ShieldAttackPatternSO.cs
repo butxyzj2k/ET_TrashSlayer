@@ -23,13 +23,13 @@ public class ShieldAttackPatternSO : BasicAttackPatternSO
         while (shield == null)
         {
             shield = weaponPoolObject.GetObjectInPool(parentTransform.position, parentTransform.rotation, () => {
-            Dictionary<string, object> data = new()
-                {
-                    { "activeBullet", true},
-                    { "startPoint", parentTransform}
-                };
-            return data;
-        });
+                Dictionary<string, object> data = new()
+                    {
+                        { "activeBullet", true},
+                        { "startPoint", parentTransform}
+                    };
+                return data;
+            });
             yield return null;
         }
         

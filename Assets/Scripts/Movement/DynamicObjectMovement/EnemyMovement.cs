@@ -3,14 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
 
-public class EnemyMovement : DynamicObjectMovement, IPersueObjectMovement
+public class EnemyMovement : ObjectMovement
 {
     [SerializeField] protected float radiusToIdel;
-    protected Transform targetTransform;
-    protected bool canChangeScale = true;
     protected ObjectPathfinding objectPathfinding;
-    public bool CanChangeScale { get => canChangeScale; }
-    public Transform TargetTransform { get => targetTransform; set => targetTransform = value; }
 
     private void Awake() {
         objectPathfinding = GetComponent<ObjectPathfinding>();
@@ -43,7 +39,9 @@ public class EnemyMovement : DynamicObjectMovement, IPersueObjectMovement
 
     public override void PerformMovement()
     {
-        if(!canMove || (Vector3.Distance(targetTransform.position, gameObject.transform.position) <= radiusToIdel)) SetObjectIdelding();
+        if(!canMove || (Vector3.Distance(targetTransform.position, gameObject.transform.position) <= radiusToIdel)) {
+            SetObjectIdelding();
+        }
         else EnemyMovementPerform();
         ObjectMovementAnim();
         ObjectPlayMovementSFX();
@@ -53,7 +51,7 @@ public class EnemyMovement : DynamicObjectMovement, IPersueObjectMovement
         Vector3 dir = GetDirToTargetTransform();
     
         if(canMove){
-            movementPatternSO.PerformMovement(rb2d, currentSpeed ,dir, ref firstTimeMove);
+            movementTrajectoryPatternSO.PerformMovement(rb2d, currentSpeed ,dir, ref firstTimeMove);
         }
 
         if(objectPathfinding.ThePath == null) return;
@@ -66,8 +64,13 @@ public class EnemyMovement : DynamicObjectMovement, IPersueObjectMovement
         }
     }
 
-    public override void ObjectMovementAnim(){
-        base.ObjectMovementAnim();
+    public override void ObjectMovementAnim()
+    {
+        ObjectMovementAnimationPerform();
+    }
+
+    public override void ObjectMovementAnimationPerform(){
+        base.ObjectMovementAnimationPerform();
 
         if(HasParameter(anim, "LastVertical")){
             if(rb2d.velocity != Vector2.zero){

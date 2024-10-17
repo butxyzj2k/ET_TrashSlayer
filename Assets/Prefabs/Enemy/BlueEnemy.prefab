@@ -154,6 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9453c42f9da0ce4aacb3d95c45806ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyAttack: {fileID: 0}
+  enemyMovement: {fileID: 0}
+  enemyHitting: {fileID: 0}
+  targetTransform: {fileID: 0}
 --- !u!114 &3116028334588803313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,9 +192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e142a79dda28474a8c6afeb039b5682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotateSpeed: 0.75
   currentSpeed: 80
   rb2d: {fileID: 3116028334588803318}
-  movementPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
+  objectSprite: {fileID: 3116028335281170763}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
   canMove: 1
   movingSFXPrefab: {fileID: 0}
   radiusToIdel: 1
@@ -225,6 +231,7 @@ MonoBehaviour:
   damageRate: 1
   barrel: {fileID: 3116028335142653175}
   sightAttackDist: 0.5
+  TargetAttackPosition: {x: 0, y: 0, z: 0}
   timeResetShield: 10
 --- !u!114 &-8176290572782266475
 MonoBehaviour:
@@ -276,7 +283,6 @@ MonoBehaviour:
   deathSFXPrefab: {fileID: 146463860463958823, guid: 9507bae40e4b02342ae032282227eb4f, type: 3}
   hittingObjectEffectSOs: []
   hittingOtherEffectSOs: []
-  healthBar: {fileID: 0}
 --- !u!114 &3116028334588803325
 MonoBehaviour:
   m_ObjectHideFlags: 0

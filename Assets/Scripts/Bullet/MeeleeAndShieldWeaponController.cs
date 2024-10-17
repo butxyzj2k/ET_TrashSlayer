@@ -13,7 +13,7 @@ public class MeeleeAndShieldWeaponController : WeaponController
     public override void ReleaseObject(Vector3 position, Quaternion rotation, Func<Dictionary<string, object>> data)
     {
         base.ReleaseObject(position, rotation, data);
-       ((ShieldAndMeeleeMovement)weaponMovement).TargetTransform = currentOwner.transform;
+       weaponMovement.TargetTransform = currentOwner.transform;
         gameObject.transform.localScale = currentOwner.transform.localScale;
     }
 }
