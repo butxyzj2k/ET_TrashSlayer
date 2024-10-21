@@ -15,14 +15,6 @@ public class CreateLaserBeamAttackPatternSO : UnSymmetricalAttackPatternSO
     protected override IEnumerator CreateBulletsInAttack(Transform startPoint, Vector3 target, PoolObject weaponPoolObject, Action resetAttack)
     {
         yield return SceneGameManager.instance.StartCoroutine(base.CreateBulletsInAttack(startPoint, target, weaponPoolObject, resetAttack) );
-        //Chờ 1 khoảng TimeExit của Laser sau đó mới kết thúc Courotine (Để resetObjectAttack)
-        yield return new WaitForSeconds(weaponPoolObject.GetObjectInPool(new Vector3(0, 0, 0), Quaternion.identity, () => {
-            Dictionary<string, object> data = new()
-                {
-                    { "activeBullet", false},
-                };
-            return data;
-        }).GetComponent<IWeaponHealth>().TimeExist);
     }
 
     protected override IEnumerator CreateAndControlOneBullet(Action<GameObject> PerformAttackFlexibleAction, Transform startPoint, List<MultiDirAttackExtensionCode.NewTransform> newBarrels, int indexBarrel, Vector3 target, PoolObject weaponPoolObject, int bulletIndex){
@@ -30,7 +22,6 @@ public class CreateLaserBeamAttackPatternSO : UnSymmetricalAttackPatternSO
         GameObject laserBeam = weaponPoolObject.GetObjectInPool(newBarrels[indexBarrel].position, Quaternion.identity, () => {
             Dictionary<string, object> data = new()
                 {
-                    { "activeBullet", true},
                     { "startPoint", startPoint}
                 };
             return data;

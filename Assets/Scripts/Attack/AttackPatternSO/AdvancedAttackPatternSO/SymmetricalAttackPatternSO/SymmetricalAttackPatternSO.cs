@@ -23,19 +23,6 @@ public class SymmetricalAttackPatternSO : AdvancedAttackPatternSO
         base.PerformAttack(startPoint, target, weaponPoolObject, lastStartPointInFlexibleAttack, resetAttack);
     }
 
-    // protected override IEnumerator CreateBulletsInAttack(Transform startPoint, Vector3 target, PoolObject weaponPoolObject){
-    //     //Tạo danh sách các NewBarrels để bắt đầu tấn công
-    //     List<MultiDirAttackExtensionCode.NewTransform> newBarrels = MultiDirAttackExtensionCode.CreateMultiDir(startPoint, target, numDir, angleBetweenDir, distBetweenNewBarrelAndOrinBarel);
-    //     //Tấn công theo từng wave
-    //     for(int u = 0; u < numWaveAttack; u++){
-    //         //Nếu Object thực hiện Attack không còn hoạt động, ngừng tấn công
-    //         if(!startPoint.gameObject.activeInHierarchy) break;
-    //         //Chờ thực hiện xong trong wave rồi qua wave tiếp theo
-    //         yield return SceneGameManager.sceneGameManager.StartCoroutine(CreateBulletsBetweenWave(startPoint, newBarrels,target, weaponPoolObject));
-    //         yield return new WaitForSeconds(timeBetweenWaveAttack);
-    //     }
-    // }
-
     protected override IEnumerator CreateBulletsBetweenWave(Transform startPoint, List<MultiDirAttackExtensionCode.NewTransform> newBarrels ,Vector3 target, PoolObject weaponPoolObject, Action resetAttack){
             //Duyệt qua từng cặp đạn 2 bên đạn ở center
             for(int i = 0; i <= numBullet/2; i++){

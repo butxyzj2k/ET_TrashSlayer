@@ -60,7 +60,6 @@ public abstract class AttackPatternSO : ScriptableObject
         GameObject bullet = weaponPoolObject.GetObjectInPool(startPoint.position, startPoint.rotation, () => {
             Dictionary<string, object> data = new()
                 {
-                    { "activeBullet", true},
                     { "startPoint", startPoint}
                 };
             return data;

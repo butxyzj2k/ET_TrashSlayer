@@ -6,7 +6,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Attack/ShieldAttackPatternSO")]
 public class ShieldAttackPatternSO : BasicAttackPatternSO
 {
-    // [SerializeField] private bool isMotionless;
 
     protected override IEnumerator CreateBulletsInAttack(Transform startPoint, Vector3 target, PoolObject weaponPoolObject, Action resetAttack)
     {
@@ -15,7 +14,6 @@ public class ShieldAttackPatternSO : BasicAttackPatternSO
         GameObject shield = weaponPoolObject.GetObjectInPool(parentTransform.position, parentTransform.rotation, () => {
             Dictionary<string, object> data = new()
                 {
-                    { "activeBullet", true},
                     { "startPoint", parentTransform}
                 };
             return data;
@@ -25,7 +23,6 @@ public class ShieldAttackPatternSO : BasicAttackPatternSO
             shield = weaponPoolObject.GetObjectInPool(parentTransform.position, parentTransform.rotation, () => {
                 Dictionary<string, object> data = new()
                     {
-                        { "activeBullet", true},
                         { "startPoint", parentTransform}
                     };
                 return data;

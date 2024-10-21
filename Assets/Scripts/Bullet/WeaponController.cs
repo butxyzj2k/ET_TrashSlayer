@@ -26,7 +26,6 @@ public class WeaponController : MonoBehaviour, IObjectInPool
     
     public virtual void ReleaseObject(Vector3 position, Quaternion rotation, Func<Dictionary<string, object>> data)
     {
-        if((bool)data()["activeBullet"] == false) return;
         gameObject.transform.SetPositionAndRotation(position, rotation);
 
         //Nếu startPoint là quái hoặc người => gán objectOwner của projectile là startPoint
