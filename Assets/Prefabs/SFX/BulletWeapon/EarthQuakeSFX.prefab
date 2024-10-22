@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9108790407795067423}
   - component: {fileID: 9108790407795067420}
-  - component: {fileID: -2958506811109858925}
+  - component: {fileID: 7482377077353943439}
   m_Layer: 0
   m_Name: EarthQuakeSFX
   m_TagString: Untagged
@@ -129,7 +129,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2958506811109858925
+--- !u!114 &7482377077353943439
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9108790407795067421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f212baaae77cfd54da1d4e19b702ed09, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fa87826eb1b6944d9ee2466528d63af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

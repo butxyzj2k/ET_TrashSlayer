@@ -24,12 +24,10 @@ public class EnemyBossHitting : EnemyHitting
         };
 
         EnemyBossSpawnDelegate = (pram) => {
-            if(pram.Key == null) {
-                Debug.Log("F1");
-                return;
-            }
-            if(!pram.Key.Equals("GameObject")) {Debug.Log("F2");return;}
-            if((GameObject)pram.Value != gameObject) {Debug.Log("F3");return;}
+            if(pram.Key == null) return;
+            
+            if(!pram.Key.Equals("GameObject")) return;
+            if((GameObject)pram.Value != gameObject) return;
 
             if(gameObject.GetComponent<Collider2D>()) gameObject.GetComponent<Collider2D>().enabled = true;
             

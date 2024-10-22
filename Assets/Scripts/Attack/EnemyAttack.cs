@@ -85,7 +85,7 @@ public class EnemyAttack : ObjectAttack
             PoolObject.GetPoolObject(currentObjectSkill.skillSFXPrefab).GetObjectInPool(new Vector3(0, 0, 0), quaternion.identity, () => {
                 Dictionary<string, object> data = new()
                 {
-                    { "isStopSFXLoop", !isAttack || !gameObject.activeInHierarchy || !PlayerController.instance.gameObject.activeInHierarchy},
+                    { "isStopSFXLoop", !isAttack || !gameObject.activeInHierarchy || !PlayerController.instance.playerHitting.IsDeath},
                     { "isLoop", currentObjectSkill.sfxLoop}
                 };
                 return data;

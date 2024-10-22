@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 849308274228772347}
   - component: {fileID: 5533974148846639463}
-  - component: {fileID: 4588614604568791843}
+  - component: {fileID: 8905853382870869197}
   m_Layer: 0
   m_Name: Crash1SFX
   m_TagString: Untagged
@@ -129,7 +129,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4588614604568791843
+--- !u!114 &8905853382870869197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -138,6 +138,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1841518825879117853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f212baaae77cfd54da1d4e19b702ed09, type: 3}
+  m_Script: {fileID: 11500000, guid: 1fa87826eb1b6944d9ee2466528d63af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

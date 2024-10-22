@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1758614672274372761}
   - component: {fileID: 5319647793054375985}
-  - component: {fileID: -1670543143669354797}
+  - component: {fileID: 3497748826252822257}
   m_Layer: 0
   m_Name: BossRobotDeathSFX
   m_TagString: Untagged
@@ -129,7 +129,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-1670543143669354797
+--- !u!114 &3497748826252822257
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
