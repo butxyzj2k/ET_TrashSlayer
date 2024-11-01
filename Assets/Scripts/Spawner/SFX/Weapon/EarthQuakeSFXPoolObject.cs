@@ -2,17 +2,4 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EarthQuakeSFXPoolObject : PoolObject
-{
-    public override void SetOnePool()
-    {
-        int numPool = FindObjectsOfType<EarthQuakeSFXPoolObject>().Length;
-        if(numPool > 1){
-            Destroy(gameObject);
-        }
-    }
-
-    private void Awake() {
-        SetOnePool();
-    }
-}
+public class EarthQuakeSFXPoolObject : PoolObject{}

@@ -4,19 +4,9 @@ using UnityEngine;
 
 public class LightningBirdPoolObject : PoolObject
 {
-    public override void SetOnePool()
-    {
-        int numPool = FindObjectsOfType<LightningBirdPoolObject>().Length;
-        if(numPool > 1){
-            Destroy(gameObject);
-        }
-    }
-
-    private void Awake() {
-        SetOnePool();
-    }
 
     private void Start() {
+        SetOnePool();
         InitalizePoolObject();
     }
 

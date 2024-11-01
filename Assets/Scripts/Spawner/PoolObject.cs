@@ -8,18 +8,22 @@ public abstract class PoolObject : MonoBehaviour
 
     protected List<GameObject> poolObjects = new List<GameObject>();
     [SerializeField] protected int amountToPool;
-
     [SerializeField] protected GameObject poolPrefab;
-    [SerializeField] protected string poolObjectName;
-
-    public string PoolObjectName { get => poolObjectName; private set => poolObjectName = value; }
 
 
     private void Start() {
+        SetOnePool();
         InitalizePoolObject();
     }
 
-    public abstract void SetOnePool();
+    public virtual void SetOnePool(){
+        var instances = FindObjectsOfType(GetType()); 
+
+        if (instances.Length > 1)
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public virtual void InitalizePoolObject(){
         for(int i = 0; i < amountToPool; i++){
@@ -45,7 +49,7 @@ public abstract class PoolObject : MonoBehaviour
         PoolObject[] poolObjects = FindObjectsOfType<PoolObject>();
         PoolObject gameObjectPoolObject = null;
         foreach(PoolObject poolObject in poolObjects){
-            if(string.Compare(poolObject.PoolObjectName, gameObjectPrefab.name) == 0){
+            if(string.Compare(poolObject.poolPrefab.name, gameObjectPrefab.name) == 0){
                 gameObjectPoolObject = poolObject;
             }
         }

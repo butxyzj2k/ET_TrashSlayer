@@ -2,20 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyPoolObject : PoolObject
+public abstract class EnemyPoolObject : PoolObject
 {
     [SerializeField] protected float moveSpeedRate = 1;
     [SerializeField] protected float damageRate = 1;
     [SerializeField] protected int healRate = 1;
-
-    public override void SetOnePool()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    private void Start() {
-        InitalizePoolObject();
-    }
 
     public override void InitalizePoolObject()
     {

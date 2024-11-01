@@ -67,25 +67,11 @@ public abstract class AttackPatternSO : ScriptableObject
         PerformAttackFlexible(bullet.transform, true, resetAttack);
     }
 
-    public virtual void SetFlexibleProjectilePoolObject(){
-        //Nếu flexibleProjectilePrefab == null => bỏ qua
-        if(flexibleAttack.flexibleProjectilePrefab == null) return;
-        //Nếu flexibleProjectilePoolObject đã được gán trước đó => bỏ qua
-        if(flexibleAttack.flexibleProjectilePoolObject != null) return;
-        //Thực hiện việc gán PoolObject
-        PoolObject[] poolObjects = FindObjectsOfType<PoolObject>();
-        foreach(PoolObject poolObject in poolObjects){
-            if(string.Compare(poolObject.PoolObjectName, flexibleAttack.flexibleProjectilePrefab.name) == 0){
-                flexibleAttack.flexibleProjectilePoolObject = poolObject;
-            }
-        }  
-    }
-
     public virtual void PerformAttackFlexible(Transform startPoint, bool lastStartPointInFlexibleAttack, Action resetAttack){
         //Nếu AttackPattern này flexible  thì bắt đầu tấn công
         if(flexibleAttack.isFlexible){
             //Thử gán flexibleProjectilePoolObject
-            SetFlexibleProjectilePoolObject();
+            flexibleAttack.flexibleProjectilePoolObject = PoolObject.GetPoolObject(flexibleAttack.flexibleProjectilePrefab);
             if(flexibleAttack.flexibleProjectilePoolObject != null){
                 //Thực hiện attackPatternSOFlexible theo từng bullet-startPoint trong attackPattern cùng với tham số lastStartPointInFlexibleAttack được truyền vô
                 flexibleAttack.attackPatternSOFlexible.PerformAttack(startPoint, startPoint.position + startPoint.rotation * Quaternion.Euler(0, 0, flexibleAttack.offsetAngle) * new Vector3(0, 1, 0), flexibleAttack.flexibleProjectilePoolObject, lastStartPointInFlexibleAttack, resetAttack);
