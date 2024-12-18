@@ -10,6 +10,7 @@ public abstract class PoolObject : MonoBehaviour
     [SerializeField] protected int amountToPool;
     [SerializeField] protected GameObject poolPrefab;
 
+    public GameObject PoolPrefab { get => poolPrefab; }
 
     private void Start() {
         SetOnePool();

@@ -12,6 +12,7 @@ public class BulletBox : MonoBehaviour
 
 
     public List<BulletSO> BulletsInBulletBox { get => bulletsInBulletBox; private set => bulletsInBulletBox = value; }
+    public int CurrentIndex { get => currentIndex; set => currentIndex = value; }
 
     private void Awake() {
         bulletSprite = GetComponentInChildren<SpriteRenderer>();

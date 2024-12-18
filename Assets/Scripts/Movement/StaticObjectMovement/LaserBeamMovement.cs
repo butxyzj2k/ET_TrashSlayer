@@ -16,6 +16,10 @@ public class LaserBeamMovement : StaticObjectMovement
 
     private float currentLaserSize;
 
+    private void OnEnable() {
+        canMove = false;
+    }
+
     public void ChangeSizeOfLaserBeam(){
         int layerCheck = LayerMask.GetMask("Player", "Obstacle");
         Vector2 laserDir = transform.up;

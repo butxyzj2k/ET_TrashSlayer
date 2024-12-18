@@ -8,6 +8,9 @@ public class AddBulletToBulletBoxHittingEffectSO : ImmediateHittingEffectSO
     [SerializeField] BulletSO bulletSO;
     public override void HittingEffectsPerform(GameObject sender, GameObject _receiver)
     {
-       _receiver.GetComponentInChildren<BulletBox>().AddObjectToBox(bulletSO);
+        BulletBox bulletBox = _receiver.GetComponentInChildren<BulletBox>();
+
+       bulletBox.AddObjectToBox(bulletSO);
+       if(bulletBox.CurrentIndex == 0) bulletBox.ChangeObjectInBox();
     }
 }

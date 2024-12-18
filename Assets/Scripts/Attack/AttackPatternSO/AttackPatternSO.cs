@@ -86,13 +86,10 @@ public abstract class AttackPatternSO : ScriptableObject
         } 
         //Nếu không phải => Kiểm tra xem đây có phải là attack gốc không hay là attack từ flexibleAttack 
         else{
-
             //Nếu là Bullet cuối hoặc là vật thể động thì resetAttack
             if(lastStartPointInFlexibleAttack || startPoint.GetComponentInParent<ObjectAttack>() || startPoint.GetComponent<ObjectAttack>()){
                 resetAttack();
             }
         }
     }
-
-
 }

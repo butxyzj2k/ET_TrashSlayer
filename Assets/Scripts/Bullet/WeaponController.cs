@@ -41,6 +41,7 @@ public class WeaponController : MonoBehaviour, IObjectInPool
         else{
             currentOwner = startPoint.GetComponent<IWeaponHealth>().CurrentOwner;
         }
+
         weaponHealth.CurrentOwner = currentOwner;
         gameObject.SetActive(true);
     }

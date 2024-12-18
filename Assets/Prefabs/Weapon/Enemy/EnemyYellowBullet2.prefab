@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3294721558134892572}
   - component: {fileID: 5597578166567995764}
   - component: {fileID: 7309828438063242394}
+  - component: {fileID: 6829488460573167133}
   m_Layer: 0
   m_Name: EnemyYellowBullet2
   m_TagString: Untagged
@@ -121,10 +122,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 0.75
-  currentSpeed: 100
+  currentSpeed: 0
   rb2d: {fileID: 6170788822803729458}
   objectSprite: {fileID: 3395394981696527678}
-  movementTrajectoryPatternSO: {fileID: 0}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
   canMove: 0
   movingSFXPrefab: {fileID: 0}
 --- !u!114 &7309828438063242394
@@ -147,6 +148,48 @@ MonoBehaviour:
   canMove: 0
   movingSFXPrefab: {fileID: 0}
   canRotate: 1
+--- !u!114 &6829488460573167133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102881754807351956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4346f48d94eabd845a2dd79df515c881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  maxHealth: 999
+  onHit:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6829488460573167133}
+        m_TargetAssemblyTypeName: MeeleeBulletHitting, Assembly-CSharp
+        m_MethodName: DestroyObject
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  timeExist: 5
+  currentTarget: None
+  hittingVFXPrefabs: {fileID: 2980798797066607381, guid: fc00add7b412e9b468d14ad56421153f, type: 3}
+  spawnSFXPrefab: {fileID: 6793743117559980380, guid: 76e50d99eb240ef4fa30c644421eba74, type: 3}
+  hurtSFXPrefab: {fileID: 0}
+  deathSFXPrefab: {fileID: 0}
+  hittingObjectEffectSOs: []
+  hittingOtherEffectSOs: []
+  normalDamageRate: 1
+  extraDamageRate: 2
 --- !u!1 &4749853026733378259
 GameObject:
   m_ObjectHideFlags: 0

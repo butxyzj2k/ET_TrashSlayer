@@ -102,7 +102,7 @@ MonoBehaviour:
   currentSpeed: 300
   rb2d: {fileID: 4663427289933479237}
   objectSprite: {fileID: 4663427291279573932}
-  movementTrajectoryPatternSO: {fileID: 11400000, guid: eaafe1ba68ae056408c062380305bf30, type: 2}
+  movementTrajectoryPatternSO: {fileID: 11400000, guid: b1b89a58087f62342b48665233f99b4d, type: 2}
   canMove: 1
   movingSFXPrefab: {fileID: 0}
   canRotate: 1

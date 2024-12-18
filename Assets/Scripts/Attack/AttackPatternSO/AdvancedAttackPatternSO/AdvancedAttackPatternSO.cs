@@ -29,8 +29,9 @@ public class AdvancedAttackPatternSO : AttackPatternSO
         SetAdvancedAttackPatternVariable();
         //Tạo danh sách các NewBarrels để bắt đầu tấn công        
         List<MultiDirAttackExtensionCode.NewTransform> newBarrels = MultiDirAttackExtensionCode.CreateMultiDir(startPoint, target, numDir, angleBetweenDir, distBetweenNewBarrelAndOrinBarel, this);
-        if(newDirRotatable) SceneGameManager.instance.StartCoroutine(MultiDirAttackExtensionCode.RotateNewBarrels(startPoint, distOrAngleBetweenBullet, distBetweenNewBarrelAndOrinBarel, attackRate, newBarrels));
-        
+        if(newDirRotatable){
+            SceneGameManager.instance.StartCoroutine(MultiDirAttackExtensionCode.RotateNewBarrels(startPoint, distOrAngleBetweenBullet, distBetweenNewBarrelAndOrinBarel, attackRate, newBarrels));
+        } 
         //Tấn công theo từng wave
         for(int u = 0; u < numWaveAttack; u++){
             //Nếu Object thực hiện Attack không còn hoạt động, ngừng tấn công

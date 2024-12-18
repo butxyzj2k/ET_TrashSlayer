@@ -14,7 +14,16 @@ public class CreateLaserBeamAttackPatternSO : UnSymmetricalAttackPatternSO
 
     protected override IEnumerator CreateBulletsInAttack(Transform startPoint, Vector3 target, PoolObject weaponPoolObject, Action resetAttack)
     {
-        yield return SceneGameManager.instance.StartCoroutine(base.CreateBulletsInAttack(startPoint, target, weaponPoolObject, resetAttack) );
+        yield return SceneGameManager.instance.StartCoroutine(base.CreateBulletsInAttack(startPoint, target, weaponPoolObject, resetAttack));
+
+        float time = 0;
+        while (time < weaponPoolObject.PoolPrefab.GetComponent<IWeaponHealth>().TimeExist){
+            if(!startPoint.gameObject.activeInHierarchy) {
+                break;
+            }
+            time += Time.deltaTime;
+            yield return null;
+        }
     }
 
     protected override IEnumerator CreateAndControlOneBullet(Action<GameObject> PerformAttackFlexibleAction, Transform startPoint, List<MultiDirAttackExtensionCode.NewTransform> newBarrels, int indexBarrel, Vector3 target, PoolObject weaponPoolObject, int bulletIndex){
